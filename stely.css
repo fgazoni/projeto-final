@@ -1,0 +1,320 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+header .inicio{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 10px;
+    height: 70px;
+    
+}
+
+header img{
+    width: 60px;
+    margin-left: 100px;
+}
+#pesquisar{
+    border-radius: 8px;
+    height: 35px;
+    width: 300px;
+    margin-right: 50px;
+    outline: none;
+}
+
+.botao{
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    border: none;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(255, 255, 0);
+}
+
+a{
+    text-decoration: none;
+    color:black
+}
+
+
+main section{
+   background-image: url(imagens/2015-Ducati-Scrambler-Icon-middle2.jpg);
+   background-repeat: no-repeat;
+   color: white;
+   height: 1180px;
+
+}
+article{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size: 40px;
+}
+p > .descricao  {
+    width: 500px;
+}
+.faixa{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 5px;
+    border-color: yellow;
+    border-style: solid;
+    width: 200px;
+}
+fieldset{
+    display: flex;
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+    border-top: 20px solid;
+    border-color: yellow;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    padding: 0px;
+}
+.descricao{
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+}
+#imagem-descricao{
+    width: 400px;
+    height: 300px;
+    margin-left: 200px;
+}
+.LOCALIZACAO > iframe{
+    width: 400px;
+    height: 300px;
+ 
+
+}
+form{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+.formulario > .caixa{    
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    width: 100%;
+    height: 20px;
+ 
+}
+#menssagem{
+    height: 130px;
+   
+}
+.input > .enviar{
+    padding: 10px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #dfdfdf
+} 
+section > .seguranca{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px;
+    border-top: 20px;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: yellow;
+}
+.seguranca > img{
+    width: 400px;
+    height: 300px;
+}
+.performance > p{
+    width: 500px;
+}
+
+h3{
+    font-size: 35px;
+    color: black;
+}
+
+.caracteristicas{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.luzes, .ergonomia, .rodas, .experiencia, .detalhes, .motor > p{
+    color: #8c8c8c;
+    width: 350px;
+}
+
+.luzes > img{
+    width: 350px;
+    height: 200px;  
+}
+
+.ergonomia > img{
+    width: 350px;
+    height: 200px; 
+}
+
+.rodas > img{
+    width: 350px;
+    height: 200px; 
+}
+
+.tecnologia{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.experiencia > img{
+    width: 350px;
+    height: 200px;
+    
+}
+
+.detalhes > img{
+    width: 350px;
+    height: 200px;
+}
+
+.motor > img{
+    width: 350px;
+    height: 200px;
+}
+.tecnica{
+    border-bottom: 1px solid #fcfcfc;
+}
+hr{
+    color: #cccccc;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.ficha{
+    position:relative;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.tec1{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    align-items: center;
+ 
+
+}
+.tec2{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 520px;
+    align-items: center;
+}
+
+.tec3{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 430px;
+    align-items: center;
+}
+.tec4{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 400px;
+    align-items: center;
+}
+.tec5{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 530px;
+    align-items: center;
+}
+.tec6{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 520px;
+    align-items: center;
+}
+.tec7{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 510px;
+    align-items: center;
+}
+footer{
+    height: 50px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+footer img{
+    margin-left: 15px;
+    height: 30px;
+}
+footer .rodape{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
