@@ -28,18 +28,30 @@ header img{
     outline: none;
 }
 
-.botao{
+nav .menu {
+    
     display: flex;
     justify-content: space-around;
     height: 50px;
-    border: none;
+    border: none; 
     align-content: center;
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
     background-color: rgb(255, 255, 0);
+    
 }
-
+#H, #D, #E, #S, #X, #T, #G, #C{
+    color: black;
+    text-decoration: none;
+    border: none;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#fx{
+    background-color: rgb(255, 255, 0); 
+    height: 30px;
+}
 a{
     text-decoration: none;
     color:black
@@ -51,6 +63,7 @@ main section{
    background-repeat: no-repeat;
    color: white;
    height: 1180px;
+   margin-bottom: 50px;
 
 }
 article{
@@ -119,18 +132,17 @@ form{
     height: 20px;
  
 }
+#bn, #bnn {
+    margin-bottom: 40px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
 #menssagem{
     height: 130px;
    
 }
-.input > .enviar{
-    padding: 10px;
-    margin-bottom: 40px;
-    margin-right: 20px;
-    border: none;
-    border-radius: 5px;
-    background-color: #dfdfdf
-} 
+
 section > .seguranca{
     display: flex;
     flex-direction: row-reverse;
@@ -143,10 +155,7 @@ section > .seguranca{
     border-right: 0px;
     border-color: yellow;
 }
-.img-seguranca{
-    width: 400px;
-    height: 300px;
-}
+
 .performance > p{
     width: 500px;
 }
@@ -274,6 +283,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 
 }
 footer img{

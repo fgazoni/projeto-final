@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>projeto final</title>
     <link rel="stylesheet" href="stely.css">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="./arquivos/bootstrap.min.css">
+   
 </head>
     
 <body>
@@ -18,15 +19,15 @@
            
         </div>
         <nav>
-            <div class="botao">
-                <strong><a href="#hon">HOME</a></strong>
-                <strong><a href="#desc">DESCRIÇÃO</a></strong>
-                <strong><a href="#seg"> SEGURANÇA</a></strong>
-                <strong><a href="#erg">ERGONOMIA</a></strong>
-                <strong><a href="#exp">EXPERIÊNCIA</a></strong>
-                <strong><a href="#tec">TÉCNICA</a></strong>
-                <strong><a href="galeria.html"> GALERIA</a></strong>
-                <strong> <a href="#fom"> CONTATO</a></strong>
+            <div class="menu">
+                <strong><a href="#hon" id="H">HOME</a></strong>
+                <strong><a href="#desc" id="D">DESCRIÇÃO</a></strong>
+                <strong><a href="#seg" id="S"> SEGURANÇA</a></strong>
+                <strong><a href="#erg" id="E">ERGONOMIA</a></strong>
+                <strong><a href="#exp" id="X">EXPERIÊNCIA</a></strong>
+                <strong><a href="#tec" id="T">TÉCNICA</a></strong>
+                <strong><a href="galeria.html" id="G"> GALERIA</a></strong>
+                <strong> <a href="#fom" id="C"> CONTATO</a></strong>
             </div>
         </nav>
      
@@ -43,6 +44,9 @@
                 </p>
             </article>
         </section>
+      <div id="fx">
+
+      </div>
 
         <fieldset>
         
@@ -85,7 +89,7 @@
             </div>
 
             <div class="img-seguranca">
-                <img src="Imagens/modelo_03.jpg" >
+                <img src="Imagens/modelo_03.jpg" width="500px" >
             </div>
            
             
@@ -254,9 +258,11 @@
             <br><br><br><br>
 
             <div class="input">
+
+                <button type="submit" id="bn" class="btn btn-light">Enviar formulário</button>
+                <button type="reset" id="bnn" class="btn btn-light">Limpar formulário</button>
                 
-                <input class="enviar" type="submit" value="Enviar formulário"/>
-                <input class="enviar" type="reset" value="Limpar formulário"/>
+               
                
             </div>
             
